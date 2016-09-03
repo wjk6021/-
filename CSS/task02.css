@@ -7,3 +7,102 @@ body,div,img,ul,li,h1,h2,p,span,ol,table,tr,td,aside,form,input,lable,select,opt
 body{
 	background:#ccc none repeat;
 }
+/*头部样式*/
+#header{
+	margin:0 auto;
+	padding:10px 0;
+	width:1200px;
+	height:40px;
+	background:#000;
+	position:relative;
+	font-size:14px;
+}
+#header img{
+	padding:10px;
+	width:100px;
+	height:20px;
+	float:left;
+}
+#header ul{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#header ul li{
+	float:left;
+	padding:10px;
+}
+#header ul li a{
+	color:white;
+	text-decoration:none;
+	font-size:12px;
+}
+#header ul li a:hover{
+	color:#ccc;
+	border-bottom:red;
+}
+/*主体样式*/
+#main{
+	margin:0 auto;
+	width:1200px;
+}
+.one{
+	background:white;
+	margin:20px;
+	padding:40px 20px;
+	line-height:2em;
+}
+h1{
+	font-size:22px;
+}
+h2{
+	font-size:18px;
+	padding:10px 0;
+	color:#ccc00c;
+}
+p{
+	font-size:16px;
+	text-indent:2em;
+}
+.one ul{
+	list-style:none;
+	padding:20px;
+}
+.one ol{
+	padding:10px 40px;
+}
+.one p a:hover{
+	color:blue;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+table,tr,td,th{
+	border:1px solid blue;
+}
+th{
+	background:black;
+	color:white;
+}
+.two{
+	background:gray;
+}
+
+/**结果部分**/
+#reclut{
+	margin:0px auto;
+	padding:20px 30px;
+	width:1100px;
+	background:white;
+	line-height:2em;
+	font-size:14px;
+}
+#reclut h1{
+	font-size:18px;
+	border-left:3px solid #ccc;
+	padding-left:10px;
+	height:40px;
+	line-height:40px;
+}
+
