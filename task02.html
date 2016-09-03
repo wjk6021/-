@@ -5,6 +5,7 @@
     <meta charset="utf-8">
   </head>
   <body>
+    /*头部*/
     <div id="header">
       <div>
         <img src="images/logo.jpg" width="130px" height="40px">
@@ -18,6 +19,7 @@
         </ul>
       </div>
     </div>
+    /*主体部分*/
     <div id="main">
       <div>
         <h1>文章一级标题</h1>
@@ -28,19 +30,137 @@
           这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
           这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<span><strong>这里有一个粗体字</strong></span>这是一个很长很长的段落，这是一个很长很长的段落，
         </p>
-        
+        <img src="images/logo.jpg" />
+        <p>
+          这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+          这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+        </p>
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div>
+        <h1>另一篇文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <span>文章作者</span><span>文章发表时间</span>
+        <p>          
+          这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+          这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+          这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<span><strong>这里有一个粗体字</strong></span>这是一个很长很长的段落，这是一个很长很长的段落，
+        </p>
+          <img src="images/logo.jpg" />
+        <ul>
+          <li>列表项目一</li>
+          <li>列表项目二</li>
+          <li>列表项目三</li>
+        </ul>
+      </div>
+      <div>
+        <h1>图片</h1>
+        <ul>
+          <li><img src="images/logo.jpg"></li>
+          <li><img src="images/logo.jpg"></li>
+          <li><img src="images/logo.jpg"></li>
+          <li><img src="images/logo.jpg"></li>
+          <li><img src="images/logo.jpg"></li>
+          <li><img src="images/logo.jpg"></li>
+          <li><img src="images/logo.jpg"></li>
+          <li><img src="images/logo.jpg"></li>
+        </ul>
+      </div>
+      <div>
+        <h1>最后一篇文章</h1>
+        <h2>文章二级标题</h2>
+        <span>文章作者</span><span>文章发表时间</span>
+        <ol>
+          <li>排名1</li>
+          <li>排名2</li>
+          <li>排名3</li>
+        </ol>
+        <p>下面是一个表格</p>
+        <table>
+          <tr>
+            <td>表头</td>
+            <td>表头</td>
+            <td>表头</td>
+          </tr>
+          <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td>操作</td>
+          </tr>
+          <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td>操作</td>
+          </tr>
+          <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td>操作</td>
+          </tr>
+          <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td>操作</td>
+          </tr>
+          <tr>
+            <td>总计</td>
+            <td>1000</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
     </div>
-    <div>
+    /*结果*/
+    <div id="reclut">
       <aside>
-        
+        <h1>这里以后是一个侧栏，这是侧栏标题</h1>
+        <form>
+          <div>
+            <lable>请输入邮箱地址：</lable>
+            <input type="text" placeholder="这是一个文本输入框" />
+            <p>邮箱地址请按要求格式输入</p>
+          </div>
+          <div>
+            <lable>请输入密码：</lable>
+            <input type="passwrod" placeholder="请输入密码" />
+          </div>
+          <div>
+            <lable>请重复输入密码：</lable>
+            <input type="password" placeholder="确认密码" />
+            <p>密码请为6-16位数字</p>
+          </div>
+        </form>
+        <form>
+          <lable>性别：</lable>
+          <input type="radio" checked="checked" name="sex" value="man">男
+          <input type="radio" name="sex" value="women">女
+        </form>
+        <form>
+          <lable>城市：</lable>
+          <select name="citys">
+            <option value="郑州">郑州</option>
+            <option value="北京">北京</option>
+            <option value="天津" selected="selected">天津</option>
+          </select>  
+        </form>
+        <form>
+          <lable>爱好：</lable>
+          <input type="checkbox" name="art">运动
+          <input type="checkbox" name="arm">艺术
+          <input type="checkbox" name="sec">科学
+        </form>
+        <form>
+          <lable>
+            <input type="text" rows="30" cols="5" placeholder="这是一个多行输入框，输入您的个人描述">
+          </lable>
+        </form>
+        <form>
+          <input type="submit" value="确认提交">
+        </form>
       </aside>
     </div>
+    /*结尾*/
     <footer>
-      
+      <p>版权所有</p>
     </footer>
   </body>
 </html>
