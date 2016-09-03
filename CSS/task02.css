@@ -1,1 +1,6 @@
 
+/**公用部分**/
+body,div,img,ul,li,h1,h2,p,span,ol,table,tr,td,aside,form,input,lable,select,option,footer{
+	margin:0;
+	padding:0;
+}
