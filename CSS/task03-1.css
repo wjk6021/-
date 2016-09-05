@@ -2,3 +2,44 @@ body.div,img,ul,li,p{
       margin:0;
       padding:0;
 }
+body{
+	padding:20px;
+	font-size:16px;
+}
+.clear{
+	clear:both;
+}
+img{
+	width:80px;
+	height:80px;
+	border:1px solid #999;
+	padding:20px;
+}
+.bigBox{
+	margin:0 auto;
+	padding:20px;
+	background:#eee;
+	border:1px solid #999;
+}
+.leftBox{
+	padding:20px;
+	background:red;
+	border:1px solid #999;
+	width:200px;
+	float:left;
+}
+.middleBox{
+	padding:20px;
+	background:blue;
+	border:1px solid #999;
+}
+.rightBox{
+	padding:20px;
+	background:green;
+	border:1px solid #999;
+	width:120px;
+	float:right;
+}
+.rightBox ul{
+	list-style:none;
+}
