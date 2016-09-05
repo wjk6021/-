@@ -6,40 +6,47 @@ body{
 	padding:20px;
 	font-size:16px;
 }
-.clear{
-	clear:both;
-}
 img{
 	width:80px;
 	height:80px;
-	border:1px solid #999;
-	padding:20px;
+	float:left;
 }
 .bigBox{
 	margin:0 auto;
 	padding:20px;
 	background:#eee;
 	border:1px solid #999;
+	overflow:auto;
 }
 .leftBox{
 	padding:20px;
-	background:red;
 	border:1px solid #999;
-	width:200px;
+	width:160px;
 	float:left;
+	background:#ccc;
 }
-.middleBox{
-	padding:20px;
-	background:blue;
-	border:1px solid #999;
+.leftBox p{
+	float:right;
 }
 .rightBox{
-	padding:20px;
-	background:green;
 	border:1px solid #999;
 	width:120px;
 	float:right;
+	padding:20px;
+	background:#ccc;
 }
 .rightBox ul{
 	list-style:none;
 }
+.rightBox ul li img{
+	margin:20px;
+}
+.middleBox{
+	padding:20px;
+	border:1px solid #999;
+	margin-left:220px;
+	margin-right:180px;
+	line-height:2em;
+}
+
+	
